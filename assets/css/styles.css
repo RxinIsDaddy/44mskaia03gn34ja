@@ -116,7 +116,7 @@ button:hover {
     background-color: rgb(45, 45, 45);
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 1em;
+    padding-top: 0.5em;
     font-weight: 100;
     text-align: top;
     border-radius: 6px;
