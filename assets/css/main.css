@@ -10,6 +10,11 @@ body {
     user-select: none;
 }
 
+.image
+{
+    clip-path: ellipse();
+}
+
 .center {
     text-align: center;
     transform: translate(-50%, -50%);
