@@ -12,7 +12,7 @@ body {
 
 .image
 {
-    clip-path: ellipse();
+    clip-path: circle();
 }
 
 .center {
