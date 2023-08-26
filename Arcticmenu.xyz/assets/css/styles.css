@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&amp;display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: rgb(35, 35, 35);
+}
+
+.center {
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.center h1 {
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 7rem;
+}
+
+.center p {
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+.bottom {
+    text-align:center;
+    color:#0077FF;
+    position: absolute;
+    top: 95%;
+    left: 45%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom h3 {
+    font-size: 100px;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor:pointer;
+    clip-path: circle();
+    width: 70px;
+    height:70px;
+    transition: all .3s cubic-bezier(0.42, 0, 0.37, 1.87);
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav__links li a {
+    transition: all .3s cubic-bezier(0.42, 0, 0.37, 1.87);
+}
+
+.nav__links li a:hover {
+    color:#0077FF;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #0077FF;
+    box-shadow: 0px 4px 11px #0077FF;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all .3s cubic-bezier(0.42, 0, 0.37, 1.87);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 13px #0077FF;
+}
+
+.mainButton {
+    padding: 9px 25px;
+    background-color: #0077FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px #0077FF;
+    cursor:pointer;
+    transition: all .3s cubic-bezier(0.42, 0, 0.37, 1.87);
+}
+
+.mainButton:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px #0077FF;
+}
+
+.statusframe {
+    width: 600px;
+    height: 95px;
+    margin-bottom: 0.4rem;
+    color: var(--clr-light);
+    background-color: rgb(45, 45, 45);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:0.3rem;
+    font-weight: 100;
+    text-align: left;
+    border-radius: 6px;
+    transition: all .3s cubic-bezier(0.42, 0, 0.37, 1.87);
+}
+
+.statusframe:hover {
+    transform: scale(1.05); 
+}
+
+.statusframe h2{
+    text-overflow: none;
+    margin-left: 1rem;
+    margin-top:0.5rem;
+    font-size: 1.5rem;
+    background-color: rgb(45, 45, 45);
+    color: #0077FF;
+    text-shadow: 0px 3px 10px rgb(45, 45, 45);
+}
+
+.statusframe h3 {
+    text-overflow: none;
+    margin-left: 1rem;
+    margin-top:0.2rem;
+    font-size: 1rem;
+    background-color: rgb(45, 45, 45);
+    color: rgb(200, 200, 200);
+    text-shadow: 0px 3px 10px rgb(45, 45, 45);
+}
+
+.frame {
+    width: 350px;
+    height: 425px;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem; 
+    color: var(--clr-light);
+    background-color: rgb(45, 45, 45);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0.5em;
+    font-weight: 100;
+    text-align: top;
+    border-radius: 6px;
+    transition: all .3s cubic-bezier(0.42, 0, 0.37, 1.87);
+}
+
+.frame:hover
+{
+    transform: scale(1.05);
+}
+
+.frame h2
+{
+    text-overflow: none;
+    font-size: 1.5rem;
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+    text-shadow: 0px 3px 10px rgb(45, 45, 45);
+}
+
+.frame h3 {
+    text-overflow: none;
+    font-size: 1.2rem;
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+    text-shadow: 0px 3px 10px rgb(45, 45, 45);
+}
+
+.frame p 
+{
+    text-overflow: none;
+    font-size: 1.5rem;
+    background-color: rgb(45, 45, 45);
+    color:#fff;
+}
