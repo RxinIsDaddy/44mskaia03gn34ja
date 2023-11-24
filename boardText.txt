@@ -1,0 +1,9 @@
+<color=#4278f5>Message</color>
+Thank you for purchasing Arctic, we are glad to see you here.
+<color=#4278f5>Developer Socials</color>
+<color=#4278f5>feds.lol/rxin</color>
+<color=#4278f5>feds.lol/jayzvtx</color>
+<color=#4278f5>feds.lol/bvunt</color>
+<color=#4278f5>feds.lol/squishy</color>
+<color=#4278f5>Gorilla Dev</color>
+<color=#4278f5>Lxnar</color>
